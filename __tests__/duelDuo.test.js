@@ -1,5 +1,7 @@
 const { Builder, Browser, By, until } = require("selenium-webdriver");
 
+require("chromedriver");
+
 let driver;
 
 beforeEach(async () => {
