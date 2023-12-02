@@ -109,6 +109,6 @@ app.get("/api/player", (req, res) => {
 
 app.use(rollbar.errorHandler());
 
-app.listen(8000, () => {
-  console.log(`Listening on 8000`);
+app.listen(4000, () => {
+  console.log(`Listening on 4000`);
 });
